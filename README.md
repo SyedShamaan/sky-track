@@ -14,10 +14,6 @@ Sky Track is a weather application that allows users to search for weather infor
 
 #### 🔄 Responsive design: The app adapts to different screen sizes, ensuring a smooth experience on both desktop and mobile devices.
 
-## Demo
-
-[Live Demo](#)
-
 ## Screenshots
 
 ![SS 1](./s1.png)
