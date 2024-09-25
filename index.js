@@ -1,6 +1,7 @@
 function getWeather() {
   // API key for OpenWeatherMap
-  const apiKey = ""; // Enter your API key
+  // const apiKey = ""; // Enter your API key
+  const apiKey = process.env.API_KEY;
   const city = document.getElementById("city").value;
 
   // Validation to ensure a city is entered
