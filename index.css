@@ -1,0 +1,160 @@
+/* General styling for the body */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #e0f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Weather page container */
+#weather-page {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+/* Header styling */
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Logo and heading styling */
+#header-logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+}
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+/* Input field and button styling */
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00796b;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #004d40;
+}
+
+/* Weather display section */
+#display-weather {
+  margin-top: 20px;
+}
+
+.city-weather {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.weather-description {
+  text-align: left;
+  flex: 1;
+}
+
+/* Weather icon styling */
+.weather-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Weather details */
+.weather-details {
+  margin-top: 10px;
+}
+
+.weather-details h1 {
+  font-size: 2.5rem;
+}
+
+.weather-details p {
+  font-size: 1rem;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 600px) {
+  #weather-page {
+    width: 90%;
+    box-shadow: none;
+  }
+
+  input[type="text"],
+  button {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  #header {
+    flex-direction: column;
+  }
+
+  #header-logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .city-weather {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .weather-icon img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .weather-details h1 {
+    font-size: 2rem;
+  }
+
+  .weather-details p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .weather-details h1 {
+    font-size: 1.8rem;
+  }
+
+  .weather-details p {
+    font-size: 0.85rem;
+  }
+
+  .weather-icon img {
+    width: 70px;
+    height: 70px;
+  }
+}
