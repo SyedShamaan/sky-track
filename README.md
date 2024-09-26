@@ -51,7 +51,7 @@ const apiKey = "YOUR_API_KEY"; // Replace with your actual API key
 #### Clone the repository
 
 ```
-git clone https://github.com/syedshamaan/sky-track.git
+git clone https://github.com/SyedShamaan/sky-track.git
 ```
 
 Navigate to the project directory:
